@@ -1,6 +1,6 @@
 # MOFGen
 
-### Aim: We are trying to finetune the PMTransformer (formerly MOFTransfromer) on OpenDAC data 
+#### Aim: We are trying to finetune the PMTransformer (formerly MOFTransfromer) on OpenDAC data 
 
 ### Abstract:
 
