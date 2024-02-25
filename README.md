@@ -1,8 +1,8 @@
 # MOFGen
 
-# Aim: We are trying to finetune the PMTransformer (formerly MOFTransfromer) on OpenDAC data: 
+### Aim: We are trying to finetune the PMTransformer (formerly MOFTransfromer) on OpenDAC data 
 
-# Abstract:
+### Abstract:
 
 PMTransformer is a BERT based transformer architecture trained on around 2 million crystal structures: mostly MOFs, but also a decent number of COFs, PPNs, and Zeolites. A Model trained on such type of diverse crystal data learns the synergistic effects existing between different types of crystals; It learns the thick and thin of crystal structures and the kind of topology they can adopt. It is the reason why we can fine tune such a model for different tasks, given that we have a good data.  
 
@@ -23,7 +23,7 @@ It contains the DFT stimulation trajectories of ~8000 MOFs. They arrived at this
 
 Besides, they have made 4 testing datasets sets each containing a different set of MOFs not included in the training and validation data: the test-ood (big) set contains MOFs with over 500 atoms in their unit cells, the test-ood (linker) set contains novel linkers but known topologies, the test-ood (topology) set contains novel, topologies but known linkers, and the test-ood (linker & topology) set contains both novel linkers and novel topologies. 
 
-# Conclusion
+### Conclusion
 
 We plan to feed the OpenDAC data in PMTransformer. First we experiment with fine-tuning the OpenDAC model on PMTransformer for CO2 adsorption prediction and see the outcome. Next we will experiment with the frame wise data and see that if we can predict the trajectory of CO2 adsorption on novel MOFs. 
 
